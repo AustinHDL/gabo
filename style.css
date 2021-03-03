@@ -1,0 +1,80 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	color: #000;
+    font-style: normal;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Content */
+.main{
+    position: relative;
+    display: block;
+}
+
+section{
+    display: block;
+}
+
+.main .section .boxer{
+    max-width: 980px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.main .section .boxer .image-container{
+	width: 100%;
+	height: auto;
+	padding: 50px 0;
+}
+
+.main .section .boxer .image-container .copy{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.main .section .boxer .image-container .copy h1{
+	font-size: 38px;
+	line-height: 1.12;
+	font-weight: 600;
+}
+
+.main .section .boxer .image-container .copy h2{
+	font-size: 32px;
+	line-height: 1.1;
+	font-weight: 500;
+}
+
+.main .section .boxer .image-container .items{
+	padding: 50px 0 0 0;
+}
+
+.main .section .boxer .image-container .items .sub-title{
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	width: 100%;
+	padding: 60px 0;
+	background-color: #000;
+	color: #fff;
+	margin-top: 50px;
+}
+
+.main .section .boxer .image-container .items .sub-title h3{
+	font-size: 34px;
+	line-height: 1.1;
+	font-weight: 500;
+	margin: 0 15px;
+}
+
+.main .section .boxer .image-container .items .image img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
